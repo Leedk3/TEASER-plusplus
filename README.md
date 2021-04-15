@@ -39,6 +39,7 @@ cmake .. && make
 sudo make install
 cd .. && cd examples/teaser_cpp_ply && mkdir build && cd build
 cmake .. && make
+sudo ldconfig
 ./teaser_cpp_ply
 ```
 You should see terminal output like this:
